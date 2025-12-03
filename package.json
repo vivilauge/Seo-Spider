@@ -1,0 +1,22 @@
+{
+  "name": "seo-spider",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Keyword-based crawler using Playwright for Baidu Zhidao, Baidu, Toutiao, Baidu Zhannei, and Sogou.",
+  "scripts": {
+    "start": "node src/main.js",
+    "start:once": "KEYWORDS_LIMIT=1 node src/main.js",
+    "lint": "echo 'no linter configured'"
+  },
+  "dependencies": {
+    "playwright": "^1.48.2",
+    "date-fns": "^4.1.0",
+    "p-retry": "^6.2.0",
+    "p-timeout": "^6.1.2",
+    "p-queue": "^8.0.1",
+    "iconv-lite": "^0.6.3"
+  }
+}
+
+
